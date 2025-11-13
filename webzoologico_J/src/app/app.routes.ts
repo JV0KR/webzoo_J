@@ -1,4 +1,7 @@
 import { Routes } from '@angular/router';
-import { AnimalComponentComponent } from './components/animal-component/animal-component.component';
+import { AnimalComponent } from './components/animal-components/animal-components.component';
 
-export const routes: Routes = [{path:"Animal" , component: AnimalComponentComponent}];
+export const routes: Routes = [
+    {path:'inicio', component: AnimalComponent}
+    //{path:'inicio', component: AnimalComponent}
+]

@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Animal } from './components/animal-components/animal-components.component';
  @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Animal],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

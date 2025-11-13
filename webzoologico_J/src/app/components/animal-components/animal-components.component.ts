@@ -24,7 +24,7 @@ export class AnimalComponent {
     });
   }
   ngOnInit() {
-    
+
     this.getAllAnimals();
   }
 
